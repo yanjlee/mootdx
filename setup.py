@@ -24,13 +24,13 @@ test_requirements = requirements
 test_requirements.append('pytest')
 
 setup(
-    name='mootdx',
-    version='0.3.18',
+    name='mootdxpro',
+    version='1.3.18',
     description="通达信数据读取接口.",
     long_description=readme + '\n\n' + history,
-    author="bopo.wang",
-    author_email='ibopo@126.com',
-    url='https://github.com/bopo/mootdx',
+    author="yanjlee",
+    author_email='yanjlee@163.com',
+    url='https://github.com/yanjlee/mootdx',
     packages=find_packages(include=['mootdx', 'mootdx.*']),
     # include_package_data=True,
     install_requires=requirements,
